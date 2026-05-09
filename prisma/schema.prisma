@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AppLink {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String   @db.Text
+  url         String   @db.Text
+  description String?  @db.Text
+  category    String?  @db.Text
+  status      String   @default("active") @db.Text
+  icon        String?  @db.Text
+  memo        String?  @db.Text
+  sortOrder   Int?     @map("sort_order")
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+
+  @@map("app_links")
+}

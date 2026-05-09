@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="App Hub icon">
+  <defs>
+    <linearGradient id="ocean" x1="80" y1="40" x2="432" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="0.46" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#031827"/>
+    </linearGradient>
+    <linearGradient id="pearl" x1="158" y1="132" x2="354" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7d6"/>
+      <stop offset="0.5" stop-color="#dffcff"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="80" fill="#031827"/>
+  <path d="M74 354c72-46 113-102 148-192 13-34 55-45 84-24 62 43 103 112 132 214 9 33-16 66-51 66H125c-54 0-74-39-51-64Z" fill="url(#ocean)"/>
+  <path d="M165 184h182c20 0 36 16 36 36v96c0 20-16 36-36 36H165c-20 0-36-16-36-36v-96c0-20 16-36 36-36Z" fill="url(#pearl)" opacity=".92"/>
+  <path d="M177 224h46v46h-46v-46Zm80 0h78v22h-78v-22Zm0 50h78v22h-78v-22Z" fill="#05263b"/>
+  <path d="M126 133c65 29 146 29 260 0" fill="none" stroke="#f4d06f" stroke-width="16" stroke-linecap="round" opacity=".86"/>
+</svg>
